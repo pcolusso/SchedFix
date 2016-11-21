@@ -88,6 +88,7 @@ class EventFix {
     }
     
     func listCalendars() -> [String] {
+        //TODO: Cache this, to prevent execessive lookups.
         let allCalendars = eventStore.calendars(for: .event)
         let list = allCalendars.map { $0.title }
         
