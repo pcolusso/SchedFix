@@ -13,6 +13,7 @@ class EventFix {
     let eventStore: EKEventStore = EKEventStore()
     
     var events: [EKEvent] = []
+    var calendars: [EKCalendar] = []
     
     //Initialises settings for operation
     init(forCalendarWithString: String, eventsMatching: String, replaceWith: String) {
@@ -20,25 +21,32 @@ class EventFix {
         filter = eventsMatching
         fix = replaceWith
         
+        refresh()
+    }
+    
+    func refresh() {
+        refreshCalendars()
         refreshEvents()
     }
     
     //Called eventStore becomes invalid. For example, was init'd without proper authorisation.
-    func refreshStore() {
+    /*func refreshStore() {
         eventStore.reset()
         refreshEvents()
-    }
+    }*/
     
     //Called when the internal events[] cache is out of date.
     func refreshEvents() {
         events = fetchEvents()
     }
     
+    func refreshCalendars() {
+        calendars = eventStore.calendars(for: .event).filter{$0.allowsContentModifications}
+    }
+    
     //Retrieves events from the event store that match the specified filters.
     func fetchEvents() -> [EKEvent] {
-        let allCalendars = eventStore.calendars(for: .event)
-        
-        for calendar in allCalendars {
+        for calendar in calendars {
             if calendar.title == targetCalendar {
                 let oneMonthAgo = Date(timeIntervalSinceNow: -30 * 24 * 3600)
                 let oneMonthForward = Date(timeIntervalSinceNow: +30 * 24 * 3600)
@@ -46,9 +54,7 @@ class EventFix {
                 
                 let events = eventStore.events(matching: timePred)
                 let filteredEvents = events.filter { $0.title.range(of: filter) != nil }
-                
-                //print("Found \(filteredEvents.count) events.")
-                
+        
                 return filteredEvents
             }
         }
@@ -67,7 +73,7 @@ class EventFix {
         //Tidy, perhaps move closure to param
         eventStore.requestAccess(to: .event, completion: completion)
         eventStore.reset()
-        refreshEvents()
+        refresh()
         
     }
     
@@ -88,11 +94,7 @@ class EventFix {
     }
     
     func listCalendars() -> [String] {
-        //TODO: Cache this, to prevent execessive lookups.
-        let allCalendars = eventStore.calendars(for: .event)
-        let list = allCalendars.map { $0.title }
-        
-        return list
+        return calendars.map {$0.title}
     }
 }
 
