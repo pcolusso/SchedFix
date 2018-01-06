@@ -28,7 +28,7 @@ class MainViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         if !em.eventFixer.isAuthorised() {
-            em.eventFixer.requestAuthorisation(completion: {_ in})
+            em.eventFixer.requestAuthorisation(completion: {_,_  in})
         }
         refresh()
     }
@@ -46,7 +46,7 @@ class MainViewController: UITableViewController {
         refresh()
     }
     
-    func refreshTriggered(sender: UIRefreshControl) {
+    @objc func refreshTriggered(sender: UIRefreshControl) {
         DispatchQueue.global(qos: .background).asyncAfter(deadline: .now() + 0.5) {
             self.refresh()
             sender.endRefreshing()
