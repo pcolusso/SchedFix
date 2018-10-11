@@ -9,23 +9,10 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>SchedFixMobile.xcscheme</key>
+		<key>Test2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>6386D75C1DD2C08E0020B897</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>63AE702D1DD0792700872CAF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>

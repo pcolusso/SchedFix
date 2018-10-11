@@ -3,58 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6386D7601DD2C08E0020B897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D75F1DD2C08E0020B897 /* AppDelegate.swift */; };
-		6386D7621DD2C08E0020B897 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D7611DD2C08E0020B897 /* MainViewController.swift */; };
-		6386D7651DD2C08E0020B897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6386D7631DD2C08E0020B897 /* Main.storyboard */; };
-		6386D7671DD2C08E0020B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6386D7661DD2C08E0020B897 /* Assets.xcassets */; };
-		6386D76A1DD2C08E0020B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6386D7681DD2C08E0020B897 /* LaunchScreen.storyboard */; };
-		6386D7711DD2CC020020B897 /* EventFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D76F1DD2CC020020B897 /* EventFix.swift */; };
-		6386D7721DD2CC020020B897 /* EventFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D76F1DD2CC020020B897 /* EventFix.swift */; };
-		6386D7731DD2CC020020B897 /* EventFixManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D7701DD2CC020020B897 /* EventFixManager.swift */; };
-		6386D7741DD2CC020020B897 /* EventFixManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D7701DD2CC020020B897 /* EventFixManager.swift */; };
-		6386D7771DD2CE140020B897 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386D7751DD2CE140020B897 /* SettingsViewController.swift */; };
-		6398EB581DD2AB0E0034CEAB /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398EB571DD2AB0E0034CEAB /* TweakViewController.swift */; };
-		63AE70321DD0792700872CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE70311DD0792700872CAF /* AppDelegate.swift */; };
-		63AE70341DD0792700872CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE70331DD0792700872CAF /* ViewController.swift */; };
-		63AE70361DD0792700872CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AE70351DD0792700872CAF /* Assets.xcassets */; };
-		63AE70391DD0792700872CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AE70371DD0792700872CAF /* Main.storyboard */; };
+		63E01107216EECDA002F35BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E01106216EECDA002F35BB /* AppDelegate.swift */; };
+		63E01109216EECDA002F35BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E01108216EECDA002F35BB /* ViewController.swift */; };
+		63E0110C216EECDA002F35BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E0110A216EECDA002F35BB /* Main.storyboard */; };
+		63E0110E216EECDA002F35BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E0110D216EECDA002F35BB /* Assets.xcassets */; };
+		63E01111216EECDA002F35BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E0110F216EECDA002F35BB /* LaunchScreen.storyboard */; };
+		63E01119216EEE1C002F35BB /* RulesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E01118216EEE1C002F35BB /* RulesController.swift */; };
+		63E0111D216EF8F3002F35BB /* RuleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E0111C216EF8F3002F35BB /* RuleCell.swift */; };
+		63E0111F216F0590002F35BB /* RuleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E0111E216F0590002F35BB /* RuleController.swift */; };
+		63E01121216F0A50002F35BB /* PromptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E01120216F0A50002F35BB /* PromptController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6386D75D1DD2C08E0020B897 /* SchedFixMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedFixMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6386D75F1DD2C08E0020B897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6386D7611DD2C08E0020B897 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		6386D7641DD2C08E0020B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6386D7661DD2C08E0020B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6386D7691DD2C08E0020B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6386D76B1DD2C08E0020B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6386D76F1DD2CC020020B897 /* EventFix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventFix.swift; sourceTree = "<group>"; };
-		6386D7701DD2CC020020B897 /* EventFixManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventFixManager.swift; sourceTree = "<group>"; };
-		6386D7751DD2CE140020B897 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		6398EB571DD2AB0E0034CEAB /* TweakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweakViewController.swift; sourceTree = "<group>"; };
-		63AE702E1DD0792700872CAF /* SchedFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63AE70311DD0792700872CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63AE70331DD0792700872CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63AE70351DD0792700872CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63AE70381DD0792700872CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63AE703A1DD0792700872CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63AE70421DD114D500872CAF /* SchedFix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchedFix.entitlements; sourceTree = "<group>"; };
-		63EC5B5A2164711600412A13 /* SchedFixMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchedFixMobile.entitlements; sourceTree = "<group>"; };
+		63E01103216EECDA002F35BB /* SchedFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchedFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E01106216EECDA002F35BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E01108216EECDA002F35BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E0110B216EECDA002F35BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E0110D216EECDA002F35BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E01110216EECDA002F35BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E01112216EECDA002F35BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E01118216EEE1C002F35BB /* RulesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesController.swift; sourceTree = "<group>"; };
+		63E0111C216EF8F3002F35BB /* RuleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleCell.swift; sourceTree = "<group>"; };
+		63E0111E216F0590002F35BB /* RuleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleController.swift; sourceTree = "<group>"; };
+		63E01120216F0A50002F35BB /* PromptController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6386D75A1DD2C08E0020B897 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63AE702B1DD0792700872CAF /* Frameworks */ = {
+		63E01100216EECDA002F35BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,270 +43,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6386D75E1DD2C08E0020B897 /* SchedFixMobile */ = {
+		63E010FA216EECDA002F35BB = {
 			isa = PBXGroup;
 			children = (
-				63EC5B5A2164711600412A13 /* SchedFixMobile.entitlements */,
-				6386D75F1DD2C08E0020B897 /* AppDelegate.swift */,
-				6386D7611DD2C08E0020B897 /* MainViewController.swift */,
-				6386D7631DD2C08E0020B897 /* Main.storyboard */,
-				6386D7661DD2C08E0020B897 /* Assets.xcassets */,
-				6386D7681DD2C08E0020B897 /* LaunchScreen.storyboard */,
-				6386D76B1DD2C08E0020B897 /* Info.plist */,
-				6386D7751DD2CE140020B897 /* SettingsViewController.swift */,
-			);
-			path = SchedFixMobile;
-			sourceTree = "<group>";
-		};
-		63AE70251DD0792700872CAF = {
-			isa = PBXGroup;
-			children = (
-				6386D76F1DD2CC020020B897 /* EventFix.swift */,
-				6386D7701DD2CC020020B897 /* EventFixManager.swift */,
-				63AE70301DD0792700872CAF /* SchedFix */,
-				6386D75E1DD2C08E0020B897 /* SchedFixMobile */,
-				63AE702F1DD0792700872CAF /* Products */,
+				63E01105216EECDA002F35BB /* Test2 */,
+				63E01104216EECDA002F35BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63AE702F1DD0792700872CAF /* Products */ = {
+		63E01104216EECDA002F35BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63AE702E1DD0792700872CAF /* SchedFix.app */,
-				6386D75D1DD2C08E0020B897 /* SchedFixMobile.app */,
+				63E01103216EECDA002F35BB /* SchedFix.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63AE70301DD0792700872CAF /* SchedFix */ = {
+		63E01105216EECDA002F35BB /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
-				63AE70421DD114D500872CAF /* SchedFix.entitlements */,
-				63AE70311DD0792700872CAF /* AppDelegate.swift */,
-				63AE70331DD0792700872CAF /* ViewController.swift */,
-				63AE70351DD0792700872CAF /* Assets.xcassets */,
-				63AE70371DD0792700872CAF /* Main.storyboard */,
-				6398EB571DD2AB0E0034CEAB /* TweakViewController.swift */,
-				63AE703A1DD0792700872CAF /* Info.plist */,
+				63E01106216EECDA002F35BB /* AppDelegate.swift */,
+				63E01108216EECDA002F35BB /* ViewController.swift */,
+				63E0110A216EECDA002F35BB /* Main.storyboard */,
+				63E01120216F0A50002F35BB /* PromptController.swift */,
+				63E0111E216F0590002F35BB /* RuleController.swift */,
+				63E01118216EEE1C002F35BB /* RulesController.swift */,
+				63E0111C216EF8F3002F35BB /* RuleCell.swift */,
+				63E0110D216EECDA002F35BB /* Assets.xcassets */,
+				63E0110F216EECDA002F35BB /* LaunchScreen.storyboard */,
+				63E01112216EECDA002F35BB /* Info.plist */,
 			);
-			path = SchedFix;
+			path = Test2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6386D75C1DD2C08E0020B897 /* SchedFixMobile */ = {
+		63E01102216EECDA002F35BB /* SchedFix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6386D76E1DD2C08E0020B897 /* Build configuration list for PBXNativeTarget "SchedFixMobile" */;
+			buildConfigurationList = 63E01115216EECDA002F35BB /* Build configuration list for PBXNativeTarget "SchedFix" */;
 			buildPhases = (
-				6386D7591DD2C08E0020B897 /* Sources */,
-				6386D75A1DD2C08E0020B897 /* Frameworks */,
-				6386D75B1DD2C08E0020B897 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SchedFixMobile;
-			productName = SchedFixMobile;
-			productReference = 6386D75D1DD2C08E0020B897 /* SchedFixMobile.app */;
-			productType = "com.apple.product-type.application";
-		};
-		63AE702D1DD0792700872CAF /* SchedFix */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63AE703D1DD0792700872CAF /* Build configuration list for PBXNativeTarget "SchedFix" */;
-			buildPhases = (
-				63AE702A1DD0792700872CAF /* Sources */,
-				63AE702B1DD0792700872CAF /* Frameworks */,
-				63AE702C1DD0792700872CAF /* Resources */,
+				63E010FF216EECDA002F35BB /* Sources */,
+				63E01100216EECDA002F35BB /* Frameworks */,
+				63E01101216EECDA002F35BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SchedFix;
-			productName = SchedFix;
-			productReference = 63AE702E1DD0792700872CAF /* SchedFix.app */;
+			productName = Test2;
+			productReference = 63E01103216EECDA002F35BB /* SchedFix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63AE70261DD0792700872CAF /* Project object */ = {
+		63E010FB216EECDA002F35BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Paul Colusso";
 				TargetAttributes = {
-					6386D75C1DD2C08E0020B897 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = KMCZBZDRGH;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplePay = {
-								enabled = 0;
-							};
-							com.apple.SafariKeychain = {
-								enabled = 0;
-							};
-						};
-					};
-					63AE702D1DD0792700872CAF = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = KMCZBZDRGH;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.Sandbox = {
-								enabled = 1;
-							};
-						};
+					63E01102216EECDA002F35BB = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 63AE70291DD0792700872CAF /* Build configuration list for PBXProject "SchedFix" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 63E010FE216EECDA002F35BB /* Build configuration list for PBXProject "SchedFix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 63AE70251DD0792700872CAF;
-			productRefGroup = 63AE702F1DD0792700872CAF /* Products */;
+			mainGroup = 63E010FA216EECDA002F35BB;
+			productRefGroup = 63E01104216EECDA002F35BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63AE702D1DD0792700872CAF /* SchedFix */,
-				6386D75C1DD2C08E0020B897 /* SchedFixMobile */,
+				63E01102216EECDA002F35BB /* SchedFix */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6386D75B1DD2C08E0020B897 /* Resources */ = {
+		63E01101216EECDA002F35BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6386D76A1DD2C08E0020B897 /* LaunchScreen.storyboard in Resources */,
-				6386D7671DD2C08E0020B897 /* Assets.xcassets in Resources */,
-				6386D7651DD2C08E0020B897 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63AE702C1DD0792700872CAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63AE70361DD0792700872CAF /* Assets.xcassets in Resources */,
-				63AE70391DD0792700872CAF /* Main.storyboard in Resources */,
+				63E01111216EECDA002F35BB /* LaunchScreen.storyboard in Resources */,
+				63E0110E216EECDA002F35BB /* Assets.xcassets in Resources */,
+				63E0110C216EECDA002F35BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6386D7591DD2C08E0020B897 /* Sources */ = {
+		63E010FF216EECDA002F35BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6386D7741DD2CC020020B897 /* EventFixManager.swift in Sources */,
-				6386D7621DD2C08E0020B897 /* MainViewController.swift in Sources */,
-				6386D7601DD2C08E0020B897 /* AppDelegate.swift in Sources */,
-				6386D7771DD2CE140020B897 /* SettingsViewController.swift in Sources */,
-				6386D7721DD2CC020020B897 /* EventFix.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63AE702A1DD0792700872CAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63AE70341DD0792700872CAF /* ViewController.swift in Sources */,
-				63AE70321DD0792700872CAF /* AppDelegate.swift in Sources */,
-				6386D7731DD2CC020020B897 /* EventFixManager.swift in Sources */,
-				6386D7711DD2CC020020B897 /* EventFix.swift in Sources */,
-				6398EB581DD2AB0E0034CEAB /* TweakViewController.swift in Sources */,
+				63E01119216EEE1C002F35BB /* RulesController.swift in Sources */,
+				63E01121216F0A50002F35BB /* PromptController.swift in Sources */,
+				63E0111D216EF8F3002F35BB /* RuleCell.swift in Sources */,
+				63E01109216EECDA002F35BB /* ViewController.swift in Sources */,
+				63E01107216EECDA002F35BB /* AppDelegate.swift in Sources */,
+				63E0111F216F0590002F35BB /* RuleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6386D7631DD2C08E0020B897 /* Main.storyboard */ = {
+		63E0110A216EECDA002F35BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6386D7641DD2C08E0020B897 /* Base */,
+				63E0110B216EECDA002F35BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6386D7681DD2C08E0020B897 /* LaunchScreen.storyboard */ = {
+		63E0110F216EECDA002F35BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6386D7691DD2C08E0020B897 /* Base */,
+				63E01110216EECDA002F35BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		63AE70371DD0792700872CAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63AE70381DD0792700872CAF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6386D76C1DD2C08E0020B897 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KMCZBZDRGH;
-				INFOPLIST_FILE = SchedFixMobile/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pc.utils.SchedFixMobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6386D76D1DD2C08E0020B897 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = KMCZBZDRGH;
-				INFOPLIST_FILE = SchedFixMobile/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pc.utils.SchedFixMobile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		63AE703B1DD0792700872CAF /* Debug */ = {
+		63E01113216EECDA002F35BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -346,15 +207,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -368,24 +229,27 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		63AE703C1DD0792700872CAF /* Release */ = {
+		63E01114216EECDA002F35BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -404,15 +268,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -420,76 +284,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		63AE703E1DD0792700872CAF /* Debug */ = {
+		63E01116216EECDA002F35BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SchedFix/SchedFix.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KMCZBZDRGH;
-				INFOPLIST_FILE = SchedFix/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pc.utils.SchedFix;
+				INFOPLIST_FILE = Test2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pcolusso.Test2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63AE703F1DD0792700872CAF /* Release */ = {
+		63E01117216EECDA002F35BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SchedFix/SchedFix.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KMCZBZDRGH;
-				INFOPLIST_FILE = SchedFix/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pc.utils.SchedFix;
+				INFOPLIST_FILE = Test2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pcolusso.Test2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6386D76E1DD2C08E0020B897 /* Build configuration list for PBXNativeTarget "SchedFixMobile" */ = {
+		63E010FE216EECDA002F35BB /* Build configuration list for PBXProject "SchedFix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6386D76C1DD2C08E0020B897 /* Debug */,
-				6386D76D1DD2C08E0020B897 /* Release */,
+				63E01113216EECDA002F35BB /* Debug */,
+				63E01114216EECDA002F35BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63AE70291DD0792700872CAF /* Build configuration list for PBXProject "SchedFix" */ = {
+		63E01115216EECDA002F35BB /* Build configuration list for PBXNativeTarget "SchedFix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63AE703B1DD0792700872CAF /* Debug */,
-				63AE703C1DD0792700872CAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63AE703D1DD0792700872CAF /* Build configuration list for PBXNativeTarget "SchedFix" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63AE703E1DD0792700872CAF /* Debug */,
-				63AE703F1DD0792700872CAF /* Release */,
+				63E01116216EECDA002F35BB /* Debug */,
+				63E01117216EECDA002F35BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63AE70261DD0792700872CAF /* Project object */;
+	rootObject = 63E010FB216EECDA002F35BB /* Project object */;
 }
